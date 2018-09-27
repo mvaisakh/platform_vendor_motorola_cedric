@@ -1247,7 +1247,6 @@ PRODUCT_PACKAGES += \
     com.qualcomm.location \
     qcrilmsgtunnel \
     izat.xt.srv \
-    qti-telephony-common \
     QtiTelephonyServicelibrary \
     atfwd \
     cneapiclient \
