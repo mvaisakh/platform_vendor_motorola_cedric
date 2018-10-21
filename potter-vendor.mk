@@ -447,7 +447,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/lib/libqti-iop-client.so:system/vendor/lib/libqti-iop-client.so \
     vendor/motorola/potter/proprietary/vendor/lib/libqti-iop.so:system/vendor/lib/libqti-iop.so \
     vendor/motorola/potter/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
-    vendor/motorola/potter/proprietary/vendor/lib/libqti_performance.so:system/vendor/lib/libqti_performance.so \
     vendor/motorola/potter/proprietary/vendor/lib/librcc.so:system/vendor/lib/librcc.so \
     vendor/motorola/potter/proprietary/vendor/lib/libril-qc-ltedirectdisc.so:system/vendor/lib/libril-qc-ltedirectdisc.so \
     vendor/motorola/potter/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
@@ -1047,7 +1046,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
     vendor/motorola/potter/proprietary/vendor/lib64/libqti-util.so:system/vendor/lib64/libqti-util.so \
     vendor/motorola/potter/proprietary/vendor/lib64/libqti-utils.so:system/vendor/lib64/libqti-utils.so \
-    vendor/motorola/potter/proprietary/vendor/lib64/libqti_performance.so:system/vendor/lib64/libqti_performance.so \
     vendor/motorola/potter/proprietary/vendor/lib64/libqtigef.so:system/vendor/lib64/libqtigef.so \
     vendor/motorola/potter/proprietary/vendor/lib64/librcc.so:system/vendor/lib64/librcc.so \
     vendor/motorola/potter/proprietary/vendor/lib64/librs_adreno.so:system/vendor/lib64/librs_adreno.so \
@@ -1232,6 +1230,29 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/lib64/libcamera_client.so:/system/lib64/libcamera_client.so \
     vendor/motorola/potter/proprietary/lib64/libcamera_metadata.so:/system/lib64/libcamera_metadata.so \
     vendor/motorola/potter/proprietary/lib64/libcameraservice.so:/system/lib64/libcameraservice.so \
+    vendor/motorola/potter/proprietary/lib/libfeedbackhandler.so:system/lib/libfeedbackhandler.so \
+    vendor/motorola/potter/proprietary/lib/libperfgluelayer.so:system/lib/libperfgluelayer.so \
+    vendor/motorola/potter/proprietary/lib/libqti-perfd-client.so:system/lib/libqti-perfd-client.so \
+    vendor/motorola/potter/proprietary/lib/libqti-perfd-client_system.so:system/lib/libqti-perfd-client_system.so \
+    vendor/motorola/potter/proprietary/lib/libqti-perfd.so:system/lib/libqti-perfd.so \
+    vendor/motorola/potter/proprietary/lib/libqti-util.so:system/lib/libqti-util.so \
+    vendor/motorola/potter/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
+    vendor/motorola/potter/proprietary/lib/vendor.qti.hardware.perf@1.0.so:system/lib/vendor.qti.hardware.perf@1.0.so \
+    vendor/motorola/potter/proprietary/lib64/libfeedbackhandler.so:system/lib64/libfeedbackhandler.so \
+    vendor/motorola/potter/proprietary/lib64/libperfgluelayer.so:system/lib64/libperfgluelayer.so \
+    vendor/motorola/potter/proprietary/lib64/libqti-perfd-client.so:system/lib64/libqti-perfd-client.so \
+    vendor/motorola/potter/proprietary/lib64/libqti-perfd-client_system.so:system/lib64/libqti-perfd-client_system.so \
+    vendor/motorola/potter/proprietary/lib64/libqti-perfd.so:system/lib64/libqti-perfd.so \
+    vendor/motorola/potter/proprietary/lib64/libqti-util.so:system/lib64/libqti-util.so \
+    vendor/motorola/potter/proprietary/lib64/libqti_performance.so:system/lib64/libqti_performance.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libfeedbackhandler.so:system/vendor/lib/libfeedbackhandler.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libperfgluelayer.so:system/vendor/lib/libperfgluelayer.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libqti-perfd-client_system.so:system/vendor/lib/libqti-perfd-client_system.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libqti-perfd.so:system/vendor/lib/libqti-perfd.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libqti-util.so:system/vendor/lib/libqti-util.so \
+    vendor/motorola/potter/proprietary/vendor/lib/vendor.qti.hardware.perf@1.0.so:system/vendor/lib/vendor.qti.hardware.perf@1.0.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/libqti-perfd-client_system.so:system/vendor/lib64/libqti-perfd-client_system.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/vendor.qti.hardware.perf@1.0.so:system/vendor/lib64/vendor.qti.hardware.perf@1.0.so \
 
 
 PRODUCT_PACKAGES += \
