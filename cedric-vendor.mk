@@ -1256,7 +1256,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/bin/hw/motorola.hardware.camera.provider@2.4-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/motorola.hardware.camera.provider@2.4-service \
     vendor/motorola/cedric/proprietary/vendor/etc/init/motorola.hardware.camera.provider@2.4-service_delayed.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/motorola.hardware.camera.provider@2.4-service_delayed.rc \
     vendor/motorola/cedric/proprietary/lib64/android.hardware.gnss@8.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.gnss@8.0.so \
-    vendor/motorola/cedric/proprietary/vendor/lib64/vendor.display.color@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.0_vendor.so
+    vendor/motorola/cedric/proprietary/vendor/lib64/vendor.display.color@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.0_vendor.so \
+	vendor/motorola/cedric/proprietary/etc/camera/mot_imx258_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mot_imx258_chromatix.xml \
+	vendor/motorola/cedric/proprietary/etc/camera/mot_ov5695_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mot_ov5695_chromatix.xml \
+	vendor/motorola/cedric/proprietary/etc/camera/msm8937_mot_camera.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/msm8937_mot_camera.xml
 
 PRODUCT_PACKAGES += \
     atfwd \
