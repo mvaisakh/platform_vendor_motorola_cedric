@@ -38,6 +38,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/bin/lowi-server:system/bin/lowi-server \
     vendor/motorola/cedric/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/motorola/cedric/proprietary/bin/motobox:system/bin/motobox \
+	vendor/motorola/cedric/proprietary/bin/motsettings:system/bin/motsettings \
     vendor/motorola/cedric/proprietary/vendor/bin/msm_irqbalance:$(TARGET_COPY_OUT_VENDOR)/bin/msm_irqbalance \
     vendor/motorola/cedric/proprietary/vendor/etc/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf \
     vendor/motorola/cedric/proprietary/vendor/bin/netmgrd:$(TARGET_COPY_OUT_VENDOR)/bin/netmgrd \
