@@ -53,12 +53,14 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/motorola/cedric/proprietary/vendor/bin/fmhal_service:system/vendor/bin/fmhal_service \
     vendor/motorola/cedric/proprietary/vendor/bin/fm_qsoc_patches:system/vendor/bin/fm_qsoc_patches \
+    vendor/motorola/cedric/proprietary/vendor/bin/mm-qcamera-app:system/vendor/bin/mm-qcamera-app \
     vendor/motorola/cedric/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/motorola/cedric/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice:system/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice \
     vendor/motorola/cedric/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:system/vendor/bin/hw/vendor.display.color@1.0-service \
     vendor/motorola/cedric/proprietary/vendor/bin/hw/vendor.qti.gnss@1.0-service:system/vendor/bin/hw/vendor.qti.gnss@1.0-service \
     vendor/motorola/cedric/proprietary/vendor/bin/hw/vendor.qti.hardware.iop@1.0-service:system/vendor/bin/hw/vendor.qti.hardware.iop@1.0-service \
     vendor/motorola/cedric/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service:system/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service \
+    vendor/motorola/cedric/proprietary/vendor/bin/hw/motorola.hardware.camera.imgtuner@1.0-service:system/vendor/bin/hw/motorola.hardware.camera.imgtuner@1.0-service \
     vendor/motorola/cedric/proprietary/vendor/bin/hw/motorola.hardware.camera.provider@2.4-service:system/vendor/bin/hw/motorola.hardware.camera.provider@2.4-service \
     vendor/motorola/cedric/proprietary/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti:/system/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti \
     vendor/motorola/cedric/proprietary/vendor/bin/hw/vendor.qti.hardware.soter@1.0-service:/system/vendor/bin/hw/vendor.qti.hardware.soter@1.0-service \
@@ -182,6 +184,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:system/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/motorola/cedric/proprietary/vendor/etc/init/vendor.qti.gnss@1.0-service.rc:system/vendor/etc/init/vendor.qti.gnss@1.0-service.rc \
     vendor/motorola/cedric/proprietary/vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc:system/vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc \
+    vendor/motorola/cedric/proprietary/vendor/etc/init/motorola.hardware.camera.imgtuner@1.0-service.rc:system/vendor/etc/init/motorola.hardware.camera.imgtuner@1.0-service.rc \
     vendor/motorola/cedric/proprietary/vendor/etc/init/motorola.hardware.camera.provider@2.4-service_delayed.rc:system/vendor/etc/init/motorola.hardware.camera.provider@2.4-service_delayed.rc \
     vendor/motorola/cedric/proprietary/vendor/etc/init/vendor.qti.hardware.iop@1.0-service.rc:system/vendor/etc/init/vendor.qti.hardware.iop@1.0-service.rc \
     vendor/motorola/cedric/proprietary/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc:system/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc \
@@ -234,12 +237,19 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/lib/hw/vendor.qti.gnss@1.0-impl.so:system/vendor/lib/hw/vendor.qti.gnss@1.0-impl.so \
     vendor/motorola/cedric/proprietary/vendor/lib/hw/vendor.qti.hardware.iop@1.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.iop@1.0-impl.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libOmxVideoDSMode.so:system/vendor/lib/libOmxVideoDSMode.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/camera.device@1.0-impl.so:system/vendor/lib/camera.device@1.0-impl.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/camera.device@3.2-impl.so:system/vendor/lib/camera.device@3.2-impl.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/camera.device@3.3-impl.so:system/vendor/lib/camera.device@3.3-impl.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/camera.device@3.4-external-impl.so:system/vendor/lib/camera.device@3.4-external-impl.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/camera.device@3.4-impl.so:system/vendor/lib/camera.device@3.4-impl.so \
     vendor/motorola/cedric/proprietary/vendor/lib/motcamera.device@1.0-impl.so:system/vendor/lib/motcamera.device@1.0-impl.so \
     vendor/motorola/cedric/proprietary/vendor/lib/motorola.hardware.camera.device@1.0.so:system/vendor/lib/motorola.hardware.camera.device@1.0.so \
     vendor/motorola/cedric/proprietary/vendor/lib/motorola.hardware.camera.device@1.0_vendor.so:system/vendor/lib/motorola.hardware.camera.device@1.0_vendor.so \
     vendor/motorola/cedric/proprietary/vendor/lib/hw/motorola.hardware.camera.provider@2.4-impl.so:system/vendor/lib/hw/motorola.hardware.camera.provider@2.4-impl.so \
     vendor/motorola/cedric/proprietary/vendor/lib/motorola.hardware.camera.provider@2.4.so:system/vendor/lib/motorola.hardware.camera.provider@2.4.so \
     vendor/motorola/cedric/proprietary/vendor/lib/motorola.hardware.camera.provider@2.4_vendor.so:system/vendor/lib/motorola.hardware.camera.provider@2.4_vendor.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/motorola.hardware.camera.imgtuner@1.0.so:system/vendor/lib/motorola.hardware.camera.imgtuner@1.0.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/hw/motorola.hardware.camera.imgtuner@1.0-impl.so:system/vendor/lib/hw/motorola.hardware.camera.imgtuner@1.0-impl.so \
     vendor/motorola/cedric/proprietary/vendor/lib/vendor.display.color@1.0.so:system/vendor/lib/vendor.display.color@1.0.so \
     vendor/motorola/cedric/proprietary/vendor/lib/vendor.display.color@1.1.so:system/vendor/lib/vendor.display.color@1.1.so \
     vendor/motorola/cedric/proprietary/vendor/lib/vendor.display.postproc@1.0.so:system/vendor/lib/vendor.display.postproc@1.0.so \
@@ -607,9 +617,11 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/lib/libmmcamera_imx362_eeprom.so:system/vendor/lib/libmmcamera_imx362_eeprom.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libactuator_lc898217xc.so:system/vendor/lib/libactuator_lc898217xc.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libactuator_dw9718s.so:system/vendor/lib/libactuator_dw9718s.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libactuator_dw9718sTR.so:system/vendor/lib/libactuator_dw9718sTR.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libactuator_dw9763.so:system/vendor/lib/libactuator_dw9763.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libactuator_dw9767.so:system/vendor/lib/libactuator_dw9767.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libactuator_lc898217xc.so:system/vendor/lib/libactuator_lc898217xc.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libactuator_lc898217xh.so:system/vendor/lib/libactuator_lc898217xh.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libactuator_mot_ak7371.so:system/vendor/lib/libactuator_mot_ak7371.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libactuator_pseudo.so:system/vendor/lib/libactuator_pseudo.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libchromatix_ar1335_common.so:system/vendor/lib/libchromatix_ar1335_common.so \
